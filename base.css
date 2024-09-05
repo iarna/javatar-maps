@@ -1,0 +1,34 @@
+@media print {
+    #navigation { visibility: hidden; }
+    #legend { display: none; }
+}
+@media screen {
+    #legend { position: relative; top: 20px; left: -20px; }
+}
+
+.hidden {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#navigation a {
+    margin-right: 20px;
+}
+
+#loading {
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    display: none;
+    background: #dfdfdf;
+    border: solid black 2px;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.targ { text-align: right; cursor: pointer; border-bottom: solid blue 1px; color: blue; }
+
+.src { cursor: help; }
